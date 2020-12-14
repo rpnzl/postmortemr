@@ -1,0 +1,39 @@
+
+@layer components {
+    .app {
+        @apply flex flex-col font-mono text-gray-700;
+
+        @screen lg {
+            @apply grid;
+            grid-template-areas: 'content menu';
+            grid-template-columns: auto minmax(160px, 30%);
+            grid-template-rows: auto;
+        }
+
+        & .app__content {
+            @screen lg {
+                grid-area: content;
+            }
+        }
+
+        & .app__menu {
+            @apply p-4 flex items-center justify-between lg:block lg:text-right;
+
+            @screen lg {
+                grid-area: menu;
+            }
+        }
+
+        & .app__logo {
+            @apply font-semibold mr-4 lg:mr-0 lg:mb-4;
+        }
+
+        & .app__menu-list {
+            @apply flex items-center lg:block;
+        }
+
+        & .app__menu-item {
+            @apply px-2 text-sm lg:text-base lg:px-0 lg:py-1 hover:underline;
+        }
+    }
+}

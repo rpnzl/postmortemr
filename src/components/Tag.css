@@ -1,0 +1,41 @@
+
+@layer components {
+    .tag {
+        @apply flex rounded-sm border border-gray-400 text-xs mb-1 mr-1 shadow-sm;
+
+        & span {
+            @apply px-2;
+        }
+
+        & .tag__count,
+        & .tag__key {
+            @apply bg-gray-300;
+        }
+
+        &:hover {
+            @apply shadow;
+        }
+
+        &.is-large {
+            @apply text-lg;
+        }
+
+        &.is-organization {
+            @apply border-purple-400;
+    
+            & .tag__count,
+            & .tag__key {
+                @apply bg-purple-300;
+            }
+        }
+
+        &.is-technology {
+            @apply border-yellow-300;
+    
+            & .tag__count,
+            & .tag__key {
+                @apply bg-yellow-200;
+            }
+        }
+    }
+}

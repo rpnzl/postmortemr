@@ -1,0 +1,10 @@
+.DS_Store
+.env*
+*.sqlite3
+
+.next/
+node_modules/
+out/
+
+!.env.sample
+!.gitkeep
