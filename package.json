@@ -7,7 +7,7 @@
     "db:reset": "rimraf *.sqlite3 && npx knex migrate:latest && npx knex seed:run",
     "dev": "npx next dev",
     "build": "npm run db:reset && npx next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
