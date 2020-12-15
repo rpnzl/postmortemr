@@ -14,6 +14,7 @@
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
+    "fathom-client": "3.0.0",
     "knex": "0.21.12",
     "lodash": "4.17.20",
     "next": "10.0.3",
