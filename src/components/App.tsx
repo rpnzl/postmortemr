@@ -19,6 +19,9 @@ export function App({ children }) {
                     <li className="app__menu-item">
                         <Link href="/random"><a target="_blank">Random</a></Link>
                     </li>
+                    <li className="app__menu-item">
+                        <Link href="https://github.com/rpnzl/postmortemr"><a target="_blank">Contribute</a></Link>
+                    </li>
                 </ul>
             </nav>
             <div className="app__content">
