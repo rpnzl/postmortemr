@@ -1,0 +1,11 @@
+---
+title: 'Google Compute Engine Incident #16007'
+link: https://status.cloud.google.com/incident/compute/16007?post-mortem
+published_on: 2016-04-11
+submitted_by: rpnzl
+submitted_on: 2020-12-14
+tags:
+- organization:Google
+- technology:bgp
+- technology:networking
+- type:outage

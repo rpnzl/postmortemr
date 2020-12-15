@@ -1,0 +1,11 @@
+---
+title: 'Google Cloud Networking Incident #19009'
+link: https://status.cloud.google.com/incident/cloud-networking/19009
+published_on: 2019-06-02
+submitted_by: rpnzl
+submitted_on: 2020-12-14
+tags:
+- organization:Google
+- software:network control plane
+- technology:networking
+- type:outage
