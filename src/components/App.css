@@ -6,7 +6,7 @@
         @screen lg {
             @apply grid;
             grid-template-areas: 'content menu';
-            grid-template-columns: auto minmax(160px, 30%);
+            grid-template-columns: auto max-content;
             grid-template-rows: auto;
         }
 
@@ -25,7 +25,7 @@
         }
 
         & .app__logo {
-            @apply font-semibold mr-4 lg:mr-0 lg:mb-4;
+            @apply font-semibold text-sm mr-4 lg:text-base lg:mr-0 lg:mb-4;
         }
 
         & .app__menu-list {
@@ -33,7 +33,7 @@
         }
 
         & .app__menu-item {
-            @apply px-2 text-sm lg:text-base lg:px-0 lg:py-1 hover:underline;
+            @apply px-2 text-xs lg:text-base lg:px-0 lg:py-1 hover:underline;
         }
     }
 }
