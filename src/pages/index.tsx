@@ -1,5 +1,4 @@
 import { GetStaticProps } from 'next';
-import Link from 'next/link';
 import { Postmortem } from 'src/models';
 import { PostmortemList } from 'src/components';
 
@@ -15,7 +14,7 @@ export const getStaticProps: GetStaticProps = async () => {
                 postmortems,
             ],
         ]`)
-        .orderBy('submitted_on', 'desc');
+        .orderBy('published_on', 'desc');
 
     const [
         total,
