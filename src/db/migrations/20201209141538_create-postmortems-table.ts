@@ -6,7 +6,6 @@ export async function up(knex: Knex) {
         table.string('link');
         table.string('slug').index();
         table.date('published_on').index();
-        table.string('submitted_by').index();
         table.date('submitted_on');
         table.string('title');
     });

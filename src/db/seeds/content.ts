@@ -47,7 +47,6 @@ export async function seed(knex: Knex) {
                 link: data.link,
                 slug: basename(postmortem),
                 published_on: data.published_on,
-                submitted_by: data.submitted_by,
                 submitted_on: data.submitted_on,
                 title: data.title,
             });

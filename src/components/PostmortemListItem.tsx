@@ -11,8 +11,6 @@ export function PostmortemListItem({ postmortem }) {
                             <span title={`Published on ${postmortem.published_on}`}>[p] {postmortem.published_on}</span>
                             <span className="mx-1">&middot;</span>
                             <span title={`Submitted on ${postmortem.submitted_on}`}>[s] {postmortem.submitted_on}</span>
-                            <span className="mx-1">&middot;</span>
-                            <span title={`Submitted by ${postmortem.submitted_by}`}>{postmortem.submitted_by}</span>
                         </small>
                     </h2>
                     <div className="flex flex-wrap">

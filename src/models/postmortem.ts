@@ -4,7 +4,6 @@ export class Postmortem extends Model {
     id: string;
     link: string;
     published_on: Date;
-    submitted_by: string;
     submitted_on: Date;
     tags: import('./tag').Tag[];
 
