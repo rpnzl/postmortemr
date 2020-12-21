@@ -5,8 +5,7 @@ import { Tag } from 'src/models';
 
 function TagList({ total, items }) {
     return (
-        <div>
-            <Link href="/"><a>Home</a></Link>
+        <div className="p-4 flex flex-col items-start">
             {items.map(tag => <TagComponent tag={tag}></TagComponent>)}
         </div>
     )
